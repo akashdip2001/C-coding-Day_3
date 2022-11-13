@@ -124,6 +124,7 @@ int main() {
 }
 ```
 ![typesoftringals](https://user-images.githubusercontent.com/81384987/201532170-645a8e9c-c20a-4e65-9a7f-ce5cc09da5fd.jpg)
+
 ---
 6) Write a C program to find the area of a triangle using this formula: <br/>
            -  √𝑠(𝑠 − 𝑎)(𝑠 − 𝑏)(𝑠 − 𝑐)
