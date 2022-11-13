@@ -148,98 +148,56 @@ int main() {
 ![Screenshot from 2022-11-13 22-04-09](https://user-images.githubusercontent.com/81384987/201533023-5ebaff93-e998-4f38-9633-daeaea914f38.png)
 
  ---
- 7) Write a C program to check Even or Odd.
+ 7) Write a C program to take two integers from user and check whether the given integers are equal or not.
  ```
  #include<stdio.h>
- int main()
- {
-    int number;
-    printf("Enter the number \t");
-    scanf("%d",&number);
-              
-    if(number%2==0)
-    {
-      printf("It's a even number\n");
+
+int main() {
+    int a,b;
+    printf("Enter two integers one-by-one \n");
+    scanf("%d %d",&a,&b);
+    
+    if(a==b){
+        printf("\nTwo integers are equal (%d=%d)",a,b);
+    }else{
+        printf("\nTwo integers are not equal (%d≠%d)",a,b);
     }
-      else
+    return 0;
+}
+```
+---
+8) Write a C program to find maximum between two integers given by user.
+```
+ #include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+
+
+    printf("Enter two numbers:\n");
+    scanf("%d%d", &num1, &num2);
+
+
+    if(num1 > num2)
     {
-       printf("It's a odd number\n");
+        printf("%d is maximum", num1);        
     }
-   return 0;
-  }
-```
----
-8) Write a C program to check the input is divisible by 3 or not.
-```
- #include<stdio.h>
- int main()
- {
-   int number;
-   printf("Enter the number \t");
-   scanf("%d",&number);
-              
-   if(number%3==0)
-   {
-    printf("It's divisible by 3\n");
-   }
-   else
-   {
-    printf("It's not divisible by 3\n");
-   }
-  return 0;
- }
-```
----
-9) Write a C program to check the input integer is square root or not ( Don't take imaginary value).
-```
- #include<stdio.h>
- #include<math.h>
- int main()
- {
-   int num;
-   int iVar;
-   float fVar;
-      
-   printf("Enter an integer number: ")
-   scanf("%d",&num);  // example you enter 8
-       
-   fVar= sqrt((double)num); // double is use for - store the full floating value. example: 2.82842 🤔
-          
-   iVar = fVar;   // example: fVar= 2.82842 but iVar= 2 ( because "int iVar" )- it's save only integers 😁
-   if(iVar==fVar)   // '==' chack fVar & iVar is equal or not , Example 2.82842 ≠ 2 😎
-   { 
-     printf("%d is a perfact squre.",num);
-    } else {
-      printf("%d is not a perfact aqure.",num);
-     }
- return 0;
- }
-```
----
-10) Write a C program to swap two integers (with third varible).
-```
- #include<stdio.h>
- int main() 
- {
-  int a,b,temp;
-       
-  printf("Enter the value of A and B ");
-  scanf("%d %d",&a,&b);  // Example A=4 , B=5
-       
-  printf("The value of A & B before is %d & %d \n",a,b);
-       
-  temp=a;  // value of A is copy to Temp -- Temp = 4 & A= empty
-  a=b;     // value of B is copy to A  --  A = B = 5 & B= empty
-  b=temp;  // value of Temp is copy to B -- B = Temp 
-       
-  printf("The value of A & B afterd is %d & %d \n",a,b);
-       
- return 0;
+    else if(num2 > num1)
+    {
+        printf("%d is maximum", num2);
+    }
+    else if(num1 == num2)
+    {
+        printf("Both are equal");
+    }
+
+    return 0;
 }
 ```
 ![swap](https://user-images.githubusercontent.com/81384987/198898182-1d4636d1-8ed6-4e6c-9a75-66e44bc6272e.jpg)
 
-<a href="https://akashdip2001.github.io/C-cording-Day_1/" class="previous">&laquo; Previous</a> <br/>
+<a href="https://akashdip2001.github.io/C-cording-Day_2/" class="previous">&laquo; Previous</a> <br/>
 <a href="https://akashdip2001.github.io/404/" class="next">Next &raquo;</a>
 <a href="https://akashdip2001.github.io/linktree/" target="blank"><img align="right" src="https://yt3.ggpht.com/7tPHyFi7-QyTnhpc484ZzTuRp0fZSY-CUuykvzuKdKYIwt0fmw98SWMqwRy_7pZ6LQzEYJlvXA=s88-c-k-c0x00ffffff-no-rj-mo" alt="akashdip2001" height="40" width="40" /></a>
 <a href="https://www.youtube.com/c/akash aot" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akash aot" height="30" width="40" /></a>
