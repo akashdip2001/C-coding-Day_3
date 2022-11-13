@@ -28,7 +28,7 @@ C cording Day Day_3
 ---
 1) Write a C program to swap two integers (without third variable).
 ```
- #include<stdio.h>
+#include<stdio.h>
 int main() {
     float A,B;
     printf("Enter the Value of A & B\n");
@@ -47,7 +47,7 @@ int main() {
  ---
  2) Write a C program to check whether an input integer given by user is divisible by 4 or not (using if-else).
  ```
- #include<stdio.h>
+#include<stdio.h>
 int main() {
     int A;
     printf("Enter the Value of A\t");
@@ -90,8 +90,8 @@ int main() {
 ---
 4) Write a C program to take a negative number from user and convert that negative number to equivalent positive number.  
 ```   
-  #include<stdio.h>
-int main() {
+ #include<stdio.h>
+ int main() {
     int n;
     printf("Enter the neg. Value \t");
     scanf("%d",&n);
@@ -106,7 +106,7 @@ int main() {
 5) Write a C program to take sides of a triangle from user and check whether the triangle is equilateral or not.
 ```
  #include<stdio.h>
-int main() {
+ int main() {
     float a,b,c;
     printf("Enter the side one-by-one \n");
     scanf("%f %f %f",&a,&b,&c);
@@ -152,7 +152,7 @@ int main() {
  ```
  #include<stdio.h>
 
-int main() {
+ int main() {
     int a,b;
     printf("Enter two integers one-by-one \n");
     scanf("%d %d",&a,&b);
@@ -195,7 +195,6 @@ int main()
     return 0;
 }
 ```
-![swap](https://user-images.githubusercontent.com/81384987/198898182-1d4636d1-8ed6-4e6c-9a75-66e44bc6272e.jpg)
 
 <a href="https://akashdip2001.github.io/C-cording-Day_2/" class="previous">&laquo; Previous</a> <br/>
 <a href="https://akashdip2001.github.io/404/" class="next">Next &raquo;</a>
