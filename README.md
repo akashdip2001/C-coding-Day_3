@@ -4,8 +4,7 @@ Coding by Akashdip Mahapatra
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=akashdip2001&label=Profile%20views&color=0e75b6&style=flat" alt="akashdip2001" /> </p>
 
- 🔭 I’m currently working on [**my web-site**](https://akashdip2001.github.io/linktree/)
- <h3 align="right">Connect with me:</h3>
+ 🔭 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
  
 <h1 align="right">AKASHDIP MAHAPATRA</h1>
 <p align="right">
