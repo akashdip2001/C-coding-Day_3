@@ -8,6 +8,9 @@ Coding by Akashdip Mahapatra
  <h3 align="right">Connect with me:</h3>
  
 <h1 align="right">AKASHDIP MAHAPATRA</h1>
+<p align="right">
+<a href="https://akashdip2001.github.io/linktree/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akashdip-mahapatra-330687204" height="30" width="40" /></a>
+</p>
 
 
 <br>
