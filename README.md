@@ -17,7 +17,6 @@ Coding by Akashdip Mahapatra
 | <a href="https://akashdip2001.github.io/404/" class="next">Next Day &raquo;</a> |
 
 <br>
-<br>
 <a href="https://www.youtube.com/c/akash aot" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akash aot" height="30" width="40" />My YouTube Channel</a>
 <br>
 <br>
