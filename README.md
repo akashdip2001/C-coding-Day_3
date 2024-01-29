@@ -30,7 +30,7 @@ Coding by Akashdip Mahapatra
 
 ---
 1) Write a C program to swap two integers (without third variable).
-```
+```c
 #include<stdio.h>
 int main() {
     float A,B;
@@ -49,7 +49,7 @@ int main() {
  ```
  ---
  2) Write a C program to check whether an input integer given by user is divisible by 4 or not (using if-else).
- ```
+ ```c
 #include<stdio.h>
 int main() {
     int A;
@@ -67,7 +67,7 @@ int main() {
 ```
 ---
 3) Write a C program to take a number from user and check whether the given number is positive or not.
-  ```
+  ```c
 #include<stdio.h>
 int main() {
     int n;
@@ -92,7 +92,7 @@ int main() {
    ```
 ---
 4) Write a C program to take a negative number from user and convert that negative number to equivalent positive number.  
-```   
+```c   
  #include<stdio.h>
  int main() {
     int n;
@@ -107,7 +107,7 @@ int main() {
 ```   
 ---
 5) Write a C program to take sides of a triangle from user and check whether the triangle is equilateral or not.
-```
+```c
  #include<stdio.h>
  int main() {
     float a,b,c;
@@ -131,7 +131,7 @@ int main() {
 ---
 6) Write a C program to find the area of a triangle using this formula: <br/>
            -  √𝑠(𝑠 − 𝑎)(𝑠 − 𝑏)(𝑠 − 𝑐)
-``` 
+```c
 #include<stdio.h>
 #include <math.h>
 
@@ -152,7 +152,7 @@ int main() {
 
  ---
  7) Write a C program to take two integers from user and check whether the given integers are equal or not.
- ```
+ ```c
  #include<stdio.h>
 
  int main() {
@@ -170,7 +170,7 @@ int main() {
 ```
 ---
 8) Write a C program to find maximum between two integers given by user.
-```
+```c
  #include <stdio.h>
 
 int main()
